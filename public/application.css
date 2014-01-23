@@ -1,8 +1,40 @@
-form#hit_form {
-	float: left;
-	margin-right: 10px
+body {
+	background-color: #04B404;
 }
 
 img.card_image {
 	margin: 0px 5px 5px 0px;
+}
+
+div#welcome {
+	text-align: center;
+	font-family: courier;
+}
+
+div#what_now {
+	text-align: center;
+	margin: 0;
+}
+
+div.well {
+	text-align: center;
+	vertical-align: middle;
+	background-color: #04B404;
+	border-style: solid;
+	border-width: 3px;
+	border-color: yellow;
+}
+
+form#hit_form {
+	float: left;
+	margin-right: 10px;
+}
+
+div#bet {
+	text-align: right
+}
+
+.alert {
+	position: relative;
+	bottom: auto;
 }
